@@ -1,7 +1,6 @@
 [user]
-	email = nikolasavic@fastmail.com
+	email = nikolasavic@thoughtworks.com
 	name = Nikola Savic
-
 [pull]
 	rebase = true
 [core]
