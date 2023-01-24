@@ -1,19 +1,22 @@
 ## Java version management
 
 ### Install and Set up
-* Install jenv  
+#### Install jenv  
 `brew install jenv`
 
-* Install JDKs  
+#### Install JDKs  
 `brew install --cask AdoptOpenJDK/openjdk/adoptopenjdk{8,11}`
 
-* Add JDKs to jenv  
+#### Add JDKs to jenv  
 ```
 Syntax: 
 jenv add <your_jdk_path>
 Example:
 jenv add /Library/Java/JavaVirtualMachines/openjdk-14.0.1.jdk/Contents/Home
 ```
+ *note*  
+  To `add` a java installed by homebrew, first find the path to the jdk  
+  `brew info openjdk@11`
 
 
 ### Misc
