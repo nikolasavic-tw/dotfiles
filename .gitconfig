@@ -5,3 +5,6 @@
 	rebase = true
 [core]
 	excludesfile = /Users/nikola/.gitignore
+	autocrlf = input
+[commit]
+	template = /Users/nikola/.gitmessage
