@@ -26,3 +26,11 @@ If you use multiple github accounts there are other considerations
     ```
     * Set remote upstream with:  
     `yadm remote set-url origin github-1:githubAccountName/MyRepo.git`
+
+### Managing a forked dotfile repo
+If you fork your dotfile repo, you might want to occasionally pull updates from it
+  * Set the fork source repo as a remote upstream
+    * ref: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/configuring-a-remote-repository-for-a-fork
+  * Fetch from upstream
+    * ref: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork
+  * Merge or cherry pick commits
