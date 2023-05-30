@@ -1,6 +1,7 @@
 [user]
-	email = nikolasavic@thoughtworks.com
+	email = nsavic@thoughtworks.com
 	name = Nikola Savic
+  signingkey = D7D10255BD64B46C
 [pull]
 	rebase = true
 [core]
@@ -8,3 +9,4 @@
 	autocrlf = input
 [commit]
 	template = /Users/nikola/.gitmessage
+  gpgsign = true
