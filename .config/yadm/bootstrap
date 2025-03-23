@@ -11,5 +11,6 @@ fi
 if [ "$system_type" = "Darwin" ]; then
   # Mac OS
   echo "Running Mac OS Bootstrap...."
+  ~/.local/bin/homebrew/mac-setup.sh
   echo "Done!"
 fi

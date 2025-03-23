@@ -8,21 +8,12 @@ brew lsd
 brew fzf
 brew the_silver_searcher
 brew fd
-brew pipx
-brew pyenv
-brew sbt
 brew scala
 brew starship
 brew tree
 brew yadm
 brew zsh-completion
-
-# Other Cask applications
-cask docker
-
-# Nerd Fonts
-tap homebrew/cask-fonts
-cask font-hack-nerd-font
-cask font-inconsolata-nerd-font
-cask font-iosevka-nerd-font
-cask font-mononoki-nerd-font
+brew font-hack-nerd-font
+brew font-inconsolata-nerd-font
+brew font-iosevka-nerd-font
+brew font-mononoki-nerd-font
