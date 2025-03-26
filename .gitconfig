@@ -1,12 +1,24 @@
 [user]
-	email = nsavic@thoughtworks.com
+	email = thoughtworks.savic@mbusa.com
 	name = Nikola Savic
-  signingkey = D7D10255BD64B46C
 [pull]
 	rebase = true
 [core]
 	excludesfile = /Users/nikola/.gitignore
 	autocrlf = input
+  pager = delta
 [commit]
 	template = /Users/nikola/.gitmessage
-  gpgsign = true
+[credential]
+	helper = osxkeychain
+[interactive]
+    diffFilter = delta --color-only
+[delta]
+    navigate = true    # use n and N to move between diff sections
+
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
+
+[merge]
+    conflictstyle = zdiff3
