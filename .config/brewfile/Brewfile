@@ -1,6 +1,7 @@
 # Homebrew packages
 brew brew-file
 brew git
+brew delta
 brew gnu-indent
 brew ctags
 brew jenv
