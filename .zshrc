@@ -1,10 +1,15 @@
 # Emacs keybindings
 bindkey -e
 
+# Env
+source $HOME/.config/env/defaults
+source $HOME/.config/env/asdf
+source $HOME/.config/env/fzf
+
 # Zsh completion
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
+  autoload
   autoload -Uz compinit
   compinit
 fi

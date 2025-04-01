@@ -1,5 +1,2 @@
-# Env
-source $HOME/.config/env/defaults
-source $HOME/.config/env/fzf
-source $HOME/.config/env/jenv
-source $HOME/.config/env/scala
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
