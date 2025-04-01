@@ -4,7 +4,7 @@
 [pull]
 	rebase = true
 [core]
-	excludesfile = /Users/nikola/.gitignore
+	excludesfile = /Users/nikolasavic/.gitignore
 	autocrlf = input
   pager = delta
 [commit]
